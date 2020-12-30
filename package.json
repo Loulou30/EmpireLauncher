@@ -1,11 +1,11 @@
 {
-  "name": "helioslauncher",
+  "name": "empirelauncher",
   "version": "1.8.0",
-  "productName": "Helios Launcher",
+  "productName": "Empire Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/) & Loulou30140",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/Loulou30/EmpireLauncher",
   "bugs": {
     "url": "https://github.com/dscalzi/HeliosLauncher/issues"
   },

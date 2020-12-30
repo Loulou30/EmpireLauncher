@@ -9,7 +9,7 @@ The distribution index is written in JSON. The general format of the index is as
     "version": "1.0.0",
     "discord": {
         "clientId": "12334567890123456789",
-        "smallImageText": "WesterosCraft",
+        "smallImageText": "Empire Launcher",
         "smallImageKey": "seal-circle"
     },
     "rss": "https://westeroscraft.com/articles/index.rss",
@@ -18,13 +18,13 @@ The distribution index is written in JSON. The general format of the index is as
             "id": "Example_Server",
             "name": "WesterosCraft Example Client",
             "description": "Example WesterosCraft server. Connect for fun!",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
+            "icon": "seal-circle",
             "version": "0.0.1",
-            "address": "mc.westeroscraft.com:1337",
-            "minecraftVersion": "1.11.2",
+            "address": "",
+            "minecraftVersion": "1.7.10",
             "discord": {
                 "shortId": "Example",
-                "largeImageText": "WesterosCraft Example Server",
+                "largeImageText": "1.7.10 Version",
                 "largeImageKey": "server-example"
             },
             "mainServer": true,
@@ -80,19 +80,18 @@ A URL to a RSS feed. Used for loading news.
 ```JSON
 {
     "id": "Example_Server",
-    "name": "WesterosCraft Example Client",
-    "description": "Example WesterosCraft server. Connect for fun!",
+    "name": "1.8.9",
+    "description": "1.8.9 Empire Version",
     "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/example_icon.png",
     "version": "0.0.1",
-    "address": "mc.westeroscraft.com:1337",
-    "minecraftVersion": "1.11.2",
+    "minecraftVersion": "1.8.9",
     "discord": {
         "shortId": "Example",
         "largeImageText": "WesterosCraft Example Server",
         "largeImageKey": "server-example"
     },
     "mainServer": true,
-    "autoconnect": true,
+    "autoconnect": false,
     "modules": []
 }
 ```
